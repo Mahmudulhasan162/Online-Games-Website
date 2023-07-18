@@ -12,4 +12,28 @@
     .menubar .follow{
         margin-top: 30px;
     }
+    .goat-section{
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+        background-size: 500px;
+        text-align: center;
+    }
+    .goat-text{
+        width: 100%;
+    }
+    .goat-text h1{
+        font-size: 65px;
+    }
+    .goat-text h2{
+        font-size: 30px;
+    }
+    .goat-li{
+        font-size: 16px;
+    }
+    .goat-img{
+        margin-top: 50px;
+        width: 300px;
+    }
 }

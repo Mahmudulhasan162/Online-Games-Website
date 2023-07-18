@@ -64,16 +64,19 @@ nav{
 
 .goat-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 1300px;
+    width: 1366px;
     margin: 50px auto;
+    margin-left: 0;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    padding: 0 150px;
 }
 .goat-text{
     width: 50%;
     list-style: none;
-    padding: 20px;
-    background-image: url(../images/Group\ 14.png);
 }
 .goat-text h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
