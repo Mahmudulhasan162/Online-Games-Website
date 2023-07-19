@@ -99,17 +99,18 @@
     .first-feature-line{
         grid-template-columns: repeat(2, 1fr);
     }
-    .second-feature-line{
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        gap:3px;
-    }
     .feature-btn:hover{
         border: 1px solid #FF42A5;
         cursor: pointer;
         color:#FF42A5 ;
         transition: 0.5s;
     }
+    .second-feature-line{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap:3px;
+    }
+    
     .online-games h2{
         font-size: 30px;
     }
@@ -252,17 +253,18 @@
     .first-feature-line{
         grid-template-columns: repeat(4, 1fr);
     }
-    .second-feature-line{
-        grid-template-columns: repeat(4, 1fr);
-        width: 100%;
-        gap:3px;
-    }
     .feature-btn:hover{
         border: 1px solid #FF42A5;
         cursor: pointer;
         color:#FF42A5 ;
         transition: 0.5s;
     }
+    .second-feature-line{
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        gap:3px;
+    }
+    
     .online-games h2{
         font-size: 30px;
     }
