@@ -87,4 +87,25 @@
         grid-template-columns: repeat(1, 2fr);
         text-align: center;
     }
+
+    .feature-img{
+        width: 20px;
+    }
+    .fetaure-h3{
+        font-size: 11px;
+    }
+    .first-feature-line{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .second-feature-line{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap:3px;
+    }
+    .feature-btn:hover{
+        border: 1px solid #FF42A5;
+        cursor: pointer;
+        color:#FF42A5 ;
+        transition: 0.5s;
+    }
 }
