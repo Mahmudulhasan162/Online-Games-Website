@@ -108,4 +108,32 @@
         color:#FF42A5 ;
         transition: 0.5s;
     }
+    .online-games h2{
+        font-size: 30px;
+    }
+    .online-p, .img-p{
+        font-size: 14px;
+    }
+    .online-games-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20%;
+    }
+    .online-games-img img{
+        width: 250px;
+    }
+    .games-img-container{
+        position: relative;
+        display: block;
+        width: 250px;
+        height: 400px;
+        margin-right: 0;
+    }
+    .img-p{
+        padding: 30px 0;
+    }
 }
