@@ -256,6 +256,21 @@ footer{
     font-size: 16px;
     font-weight: 500;
 }
+.footer-btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.fa-facebook:hover{
+    background-color: blue;
+    border-radius: 50px;
+}
+.fa-youtube:hover{
+    background-color: red;
+    border-radius: 70%;
+}
 /* footer section ends here */
 
 /* features section starts here */
