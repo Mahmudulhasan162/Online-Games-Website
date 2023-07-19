@@ -21,7 +21,7 @@ nav{
     min-width: 50px;
     display: flex;
     align-items: center;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     width:50%;
 }
 .logo-container img{
@@ -66,7 +66,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1366px;
+    max-width: 1326px;
     margin: 50px auto;
     margin-left: 0;
     background-image: url(../images/Group\ 14.png);
@@ -132,3 +132,50 @@ nav{
     color:#FF42A5;
 }
 /* goat section starts here */
+
+.instant-play-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.instant-play-img{
+    width: 50%;
+}
+.horse-man{
+    width: 100%;
+    position: relative;
+    top: 150px;
+    margin-left: 80px;
+}
+.rabbit{
+    width: 250px;
+    position: relative;
+    bottom: 80px;
+    /* padding-left: 100px; */
+    margin-right: 100px;
+}
+.instant-play-text{
+    width: 50%;
+    text-align: right;
+}
+.instant-play-text h2{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.play-instantly{
+    color: #F948B2;
+}
+.primary-p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 350px;
+    line-height: 30px;
+    margin-left: 148px;
+}

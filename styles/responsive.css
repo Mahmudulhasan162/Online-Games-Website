@@ -1,4 +1,8 @@
 @media screen and (max-width:576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
     nav, .menubar{
         flex-direction: column;
         width: 100%;
@@ -35,5 +39,34 @@
     .goat-img{
         margin-top: 50px;
         width: 300px;
+    }
+    .instant-play-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    .instant-play-text{
+        width: 100%;
+    }
+    .instant-play-img{
+        width: 100%;
+    }
+    .instant-play-text h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .primary-p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .horse-man{
+        height: 100%;
+        padding: 50px;
+        margin:0;
+    }
+    .rabbit{
+        width: 30%;
+        bottom: 0px;
     }
 }
