@@ -69,4 +69,22 @@
         width: 30%;
         bottom: 0px;
     }
+    .out-story,.footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:20px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: center;
+    }
+    .last-line{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        text-align: center;
+    }
 }
